@@ -4,6 +4,12 @@ body {
   background-image: url(./assets/calendar.jpg);
 }
 
+h1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
 h2 {
   font-family: "Montserrat";
   font-weight: 700;
@@ -11,7 +17,7 @@ h2 {
   position: absolute;
   text-align: center;
   top: 40px;
-  left: 100px;
+  left: 80px;
   margin: 15px;
   text-transform: uppercase;
 }
@@ -20,12 +26,12 @@ h2 {
 span {
     position: absolute;
   font-size: 40px;
-  left: 100px;
+  left: 80px;
 }
 
 .rain > img {
   position: absolute;
-  left: 600px;
+  left: 400px;
   margin: 10px 10px auto;
   width: 60px;
 }
@@ -36,13 +42,13 @@ span {
   font-size: 20px;
   position: absolute;
   top: 30px;
-  left: 312px;
+  left: 210px;
   margin: 30px 42px 0px auto;
 }
 
 table {
-  width: 800px;
-  height: 800px;
+  width: 500px;
+  height: 500px;
   margin-top: 10px;
   border-collapse: collapse;
 }
@@ -105,14 +111,19 @@ td:hover {
 
 .calendar {
   position: absolute;
-  width: 800px;
-  height: 800px;
+  width: 500px;
+  height: 500px;
   background: #444;
   zoom: 90%;
-  margin-top: 90px;
-  margin-left: 550px;
+  margin-top: 30px;
+  margin-left: 37%;
 }
 
 .today {
   background: #555;
+}
+
+footer{
+  margin-top: 45%;
+  font-size: 20px;
 }
